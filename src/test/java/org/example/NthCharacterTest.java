@@ -16,10 +16,4 @@ public class NthCharacterTest extends TestCase {
         assertEquals("", nthCharacter("ITCLiNicAl", -1));
         assertEquals("! = 1, C = 1, L = 1, 1 = 1, N = 1", nthCharacter("!tCL1Nical", 1));
     }
-
-
-    @Override
-    public String toString() {
-        return "NthCharacterTest{}";
-    }
 }
